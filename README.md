@@ -15,9 +15,9 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with: { fetch-depth: 0 }     # replay reads history
-      - uses: mwinanselite-del/gro-nass-action@v0.5.6
+      - uses: mwinanselite-del/gro-nass-action@v0.5.7
         with:
-          version: "0.5.6"      # pin it — an action that floats changes its verdict under you
+          version: "0.5.7"      # pin it — an action that floats changes its verdict under you
           replay: "20"               # 0 to skip
           fail-on-refusal: "true"    # false to observe before you enforce
 ```
